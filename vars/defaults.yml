@@ -1,13 +1,13 @@
 ---
   # Unix user name to deploy as
-deploy: geoffrey
+deploy: ubuntu
 
 # Crypted password for 'deploy' Unix user.
 # To generate, use generate-crypted-password.py
-password: $6$rounds=100000$IjJ.NeuYgJ/c.D7c$ZV8ANRn81G85GNlAs5/1iTgneQKYuGPqG0UlTx4VR9E/mPRjdBYG74JijrDuC3Qi8H5AyGJ9bdG4e/fffFyLR0
+password: $6$rounds=100000$yac/qBRsUqS2IQTJ$aVvE/WV6mq7GtdKAP0gVmQiQ81lqIjPlP.IJlUSZRehhekROhmMFQmIVQZnKAkY86uqdjYo2kwxP6OfXqgn0h.
 
 # Ruby version to install
-ruby_version: 2.1.5
+ruby_version: 2.2.2
 rbenv_makeopts: ""
 
 # Papertrail logging
